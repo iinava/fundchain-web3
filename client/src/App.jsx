@@ -1,12 +1,30 @@
-import "./App.css";
-import ThemeSwitcher from "./components/ThemeSwitcher";
+import './App.css'
+import { BrowserRouter, Route, RouterProvider, Routes, createBrowserRouter } from 'react-router-dom'
+import {Layout} from "./Layout"
+import LandingPage from './pages/LandingPage';
+
 
 function App() {
+
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Layout />,
+      children:[
+        {
+          path:"/",
+          element:<LandingPage/>
+        }
+      ]
+    }
+  ]);
+
   return (
-    <div>
-      <ThemeSwitcher />
-    </div>
+
+    <RouterProvider router={router}/>
   );
 }
 
 export default App;
+
+
