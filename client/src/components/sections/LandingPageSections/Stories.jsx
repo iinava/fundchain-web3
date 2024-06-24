@@ -2,14 +2,14 @@ import React from "react";
 
 export default function Stories() {
   return (
-    <>
+    <div id="agenda">
       <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
           <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">
             Insights
           </h2>
           <p class="mt-1 text-gray-600 dark:text-neutral-400">
-            Stay in the know with insights from industry experts.
+            View some recently Funded Projects
           </p>
         </div>
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -27,7 +27,7 @@ export default function Stories() {
 
             <div class="mt-7">
               <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white">
-                Studio by Preline
+                Studio by
               </h3>
               <p class="mt-3 text-gray-800 dark:text-neutral-200">
                 Produce professional, reliable streams easily leveraging
@@ -64,14 +64,14 @@ export default function Stories() {
 
             <div class="mt-7">
               <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white">
-                Onsite
+                Metaverse Art Gallery
               </h3>
               <p class="mt-3 text-gray-800 dark:text-neutral-200">
-                Optimize your in-person experience with best-in-class
-                capabilities like badge printing and lead retrieval
+                an exclusive NFT collection featuring original works from
+                emerging and established digital artists around the world.
               </p>
               <p class="mt-5 inline-flex items-center gap-x-1 text-blue-600 decoration-2 group-hover:underline font-medium">
-                Read more
+                Acquired 10000 Dollars in funding
                 <svg
                   class="flex-shrink-0 size-4"
                   xmlns="http://www.w3.org/2000/svg"
@@ -96,32 +96,13 @@ export default function Stories() {
           >
             <div class="flex-auto p-4 md:p-6">
               <h3 class="text-xl text-white/90 group-hover:text-white">
-                <span class="font-bold">Preline</span> Press publishes books
-                about economic and technological advancement.
+                <span class="font-bold">FundChain: </span> Empowering Community Projects Through Crowdfunding
               </h3>
             </div>
-            <div class="pt-0 p-4 md:p-6">
-              <div class="inline-flex items-center gap-2 text-sm font-medium text-white group-hover:text-white/70">
-                Visit the site
-                <svg
-                  class="flex-shrink-0 size-4"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path d="m9 18 6-6-6-6" />
-                </svg>
-              </div>
-            </div>
+          
           </a>
         </div>
       </div>
-    </>
+    </div>
   );
 }

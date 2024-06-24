@@ -37,7 +37,7 @@ export default function Herosection() {
             alt=""
           />
           <img
-            className="absolute  top-24 w-[100px] sm:w-[150px]"
+            className=" etherumtoken -z-20  absolute  top-24 w-[100px] sm:w-[150px]"
             src="https://ik.imagekit.io/nh40wkvsj/smart-coin-ethereum.png?updatedAt=1719069803107"
             alt=""
           />

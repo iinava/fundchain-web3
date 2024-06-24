@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ContactUs() {
   return (
-    <div>
+    <div id='contact'>
     <div class=" max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto text-left">
       <div class="mb-6 sm:mb-10 max-w-2xl text-center mx-auto">
         <h2 class="font-medium text-black text-2xl sm:text-4xl dark:text-white">
