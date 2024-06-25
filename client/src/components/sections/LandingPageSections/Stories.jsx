@@ -27,11 +27,10 @@ export default function Stories() {
 
             <div class="mt-7">
               <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white">
-                Studio by
+              Hope After the Storm: Flood Relief Campaign
               </h3>
               <p class="mt-3 text-gray-800 dark:text-neutral-200">
-                Produce professional, reliable streams easily leveraging
-                Preline's innovative broadcast studio
+              a  flood relief campaign dedicated to supporting communities devastated by recent floods.
               </p>
               <p class="mt-5 inline-flex items-center gap-x-1 text-blue-600 decoration-2 group-hover:underline font-medium">
                 Acquired 1000 dollars
