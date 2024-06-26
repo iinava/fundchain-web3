@@ -2,6 +2,7 @@ import './App.css'
 import { BrowserRouter, Route, RouterProvider, Routes, createBrowserRouter } from 'react-router-dom'
 import {Layout} from "./Layout"
 import LandingPage from './pages/LandingPage';
+import HomePage from './pages/HomePage';
 
 
 function App() {
@@ -14,6 +15,10 @@ function App() {
         {
           path:"/",
           element:<LandingPage/>
+        },
+        {
+          path:"/home",
+          element:<HomePage/>
         }
       ]
     }

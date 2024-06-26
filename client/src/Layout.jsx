@@ -7,7 +7,7 @@ export function Layout() {
       <div className="navbar">
         <NavbarNextui />
       </div>
-      <div className="  font-mono  ">
+      <div className=" font-mono  ">
         <Outlet />
       </div>
     </div>
